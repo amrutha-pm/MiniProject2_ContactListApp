@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="11" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-25T03:54:01 IST" name="Suite" finished-at="2025-04-25T03:55:42 IST" duration-ms="100705">
+    <groups>
+    </groups>
+    <test started-at="2025-04-25T03:54:01 IST" name="ChromeTest" finished-at="2025-04-25T03:55:42 IST" duration-ms="100705">
+      <class name="com.qa.test.TC_001_HomePageTest">
+        <test-method is-config="true" signature="reportInitialization()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:01 IST" name="reportInitialization" finished-at="2025-04-25T03:54:01 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportInitialization -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:01 IST" name="setup" finished-at="2025-04-25T03:54:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:01 IST" name="testDetails" finished-at="2025-04-25T03:54:01 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetails -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:01 IST" name="launchingAndLoadingURL" finished-at="2025-04-25T03:54:06 IST" duration-ms="5390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="set()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:06 IST" name="set" finished-at="2025-04-25T03:54:06 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="testApplicationLogoIsDisplayed()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:06 IST" name="testApplicationLogoIsDisplayed" finished-at="2025-04-25T03:54:16 IST" duration-ms="10098" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='STORE']"}
+  (Session info: chrome=135.0.7049.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62705990e20e23dee4737b49d4786e49, findElement {using=xpath, value=//img[@alt='STORE']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63213}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63213/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62705990e20e23dee4737b49d4786e49]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@alt='STORE']"}
+  (Session info: chrome=135.0.7049.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62705990e20e23dee4737b49d4786e49, findElement {using=xpath, value=//img[@alt='STORE']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63213}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63213/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 62705990e20e23dee4737b49d4786e49
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy20.isDisplayed(Unknown Source)
+at com.qa.pages.HomePage.isApplicationLogoVisible(HomePage.java:396)
+at com.qa.test.TC_001_HomePageTest.testApplicationLogoIsDisplayed(TC_001_HomePageTest.java:295)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplicationLogoIsDisplayed -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:17 IST" name="browserClose" finished-at="2025-04-25T03:54:17 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:17 IST" name="launchingAndLoadingURL" finished-at="2025-04-25T03:54:20 IST" duration-ms="2250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="set()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:20 IST" name="set" finished-at="2025-04-25T03:54:20 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="verifyAllCarouselImagesAreDisplayed()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:20 IST" name="verifyAllCarouselImagesAreDisplayed" finished-at="2025-04-25T03:54:22 IST" duration-ms="2383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllCarouselImagesAreDisplayed -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:22 IST" name="browserClose" finished-at="2025-04-25T03:54:22 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:22 IST" name="launchingAndLoadingURL" finished-at="2025-04-25T03:54:25 IST" duration-ms="2328" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="set()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:25 IST" name="set" finished-at="2025-04-25T03:54:25 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="verifyPhoneCategoriesNavigation()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:25 IST" name="verifyPhoneCategoriesNavigation" finished-at="2025-04-25T03:54:26 IST" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPhoneCategoriesNavigation -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:26 IST" name="browserClose" finished-at="2025-04-25T03:54:27 IST" duration-ms="259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:27 IST" name="launchingAndLoadingURL" finished-at="2025-04-25T03:54:29 IST" duration-ms="2134" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="set()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:29 IST" name="set" finished-at="2025-04-25T03:54:29 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="verifyPrevButtonDisplaysFirstImage()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:29 IST" name="verifyPrevButtonDisplaysFirstImage" finished-at="2025-04-25T03:54:39 IST" duration-ms="10342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrevButtonDisplaysFirstImage -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:39 IST" name="browserClose" finished-at="2025-04-25T03:54:39 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:39 IST" name="launchingAndLoadingURL" finished-at="2025-04-25T03:54:42 IST" duration-ms="2225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="set()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:42 IST" name="set" finished-at="2025-04-25T03:54:42 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="verifyPrevButtonDisplaysImage3()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:42 IST" name="verifyPrevButtonDisplaysImage3" finished-at="2025-04-25T03:54:42 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrevButtonDisplaysImage3 -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:42 IST" name="browserClose" finished-at="2025-04-25T03:54:42 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:42 IST" name="launchingAndLoadingURL" finished-at="2025-04-25T03:54:44 IST" duration-ms="2165" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="set()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:44 IST" name="set" finished-at="2025-04-25T03:54:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="verifySecondImageAfterClickingNext()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:44 IST" name="verifySecondImageAfterClickingNext" finished-at="2025-04-25T03:54:44 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySecondImageAfterClickingNext -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:44 IST" name="browserClose" finished-at="2025-04-25T03:54:45 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:45 IST" name="launchingAndLoadingURL" finished-at="2025-04-25T03:54:47 IST" duration-ms="2126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="set()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:47 IST" name="set" finished-at="2025-04-25T03:54:47 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="verifyAppUrl()[pri:1, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:47 IST" name="verifyAppUrl" finished-at="2025-04-25T03:54:47 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppUrl -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:47 IST" name="browserClose" finished-at="2025-04-25T03:54:47 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:47 IST" name="launchingAndLoadingURL" finished-at="2025-04-25T03:54:49 IST" duration-ms="2091" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="set()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:49 IST" name="set" finished-at="2025-04-25T03:54:49 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="verifySignUpButtonIsVisibleOnHomePage()[pri:2, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:49 IST" name="verifySignUpButtonIsVisibleOnHomePage" finished-at="2025-04-25T03:54:49 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpButtonIsVisibleOnHomePage -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:49 IST" name="browserClose" finished-at="2025-04-25T03:54:49 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:49 IST" name="launchingAndLoadingURL" finished-at="2025-04-25T03:54:51 IST" duration-ms="2038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="set()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:51 IST" name="set" finished-at="2025-04-25T03:54:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="verifySignUpWithModalOpens()[pri:3, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:51 IST" name="verifySignUpWithModalOpens" finished-at="2025-04-25T03:54:52 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpWithModalOpens -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:52 IST" name="browserClose" finished-at="2025-04-25T03:54:52 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:52 IST" name="launchingAndLoadingURL" finished-at="2025-04-25T03:54:55 IST" duration-ms="2110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="set()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:55 IST" name="set" finished-at="2025-04-25T03:54:55 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="verifyLoginIsActive1()[pri:4, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:54:55 IST" name="verifyLoginIsActive1" finished-at="2025-04-25T03:55:07 IST" duration-ms="12808" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#welcomeMessage"}
+  (Session info: chrome=135.0.7049.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f46247fde5797462b09087ebd5cd072d, findElement {using=id, value=welcomeMessage}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63456}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63456/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f46247fde5797462b09087ebd5cd072d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#welcomeMessage"}
+  (Session info: chrome=135.0.7049.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f46247fde5797462b09087ebd5cd072d, findElement {using=id, value=welcomeMessage}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63456}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63456/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f46247fde5797462b09087ebd5cd072d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at com.qa.pages.LoginPage.getWelcomeMessage(LoginPage.java:158)
+at com.qa.test.TC_001_HomePageTest.verifyLoginIsActive1(TC_001_HomePageTest.java:117)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginIsActive1 -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:08 IST" name="browserClose" finished-at="2025-04-25T03:55:08 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:08 IST" name="launchingAndLoadingURL" finished-at="2025-04-25T03:55:10 IST" duration-ms="2150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="set()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:10 IST" name="set" finished-at="2025-04-25T03:55:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="verifyHomePageTitle()[pri:5, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:10 IST" name="verifyHomePageTitle" finished-at="2025-04-25T03:55:10 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitle -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:10 IST" name="browserClose" finished-at="2025-04-25T03:55:10 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:10 IST" name="launchingAndLoadingURL" finished-at="2025-04-25T03:55:13 IST" duration-ms="2143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="set()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:13 IST" name="set" finished-at="2025-04-25T03:55:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="verifyLogoIsDisplayed()[pri:6, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:13 IST" name="verifyLogoIsDisplayed" finished-at="2025-04-25T03:55:13 IST" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoIsDisplayed -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:13 IST" name="browserClose" finished-at="2025-04-25T03:55:13 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:13 IST" name="launchingAndLoadingURL" finished-at="2025-04-25T03:55:15 IST" duration-ms="2042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="set()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:15 IST" name="set" finished-at="2025-04-25T03:55:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="verifyTotalCategories()[pri:7, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:15 IST" name="verifyTotalCategories" finished-at="2025-04-25T03:55:25 IST" duration-ms="10077" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[❌ Category count mismatch! expected [3] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: ❌ Category count mismatch! expected [3] but found [0]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1431)
+at org.testng.Assert.assertEquals(Assert.java:1395)
+at com.qa.test.TC_001_HomePageTest.verifyTotalCategories(TC_001_HomePageTest.java:195)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalCategories -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:25 IST" name="browserClose" finished-at="2025-04-25T03:55:26 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:26 IST" name="launchingAndLoadingURL" finished-at="2025-04-25T03:55:28 IST" duration-ms="2282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="set()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:28 IST" name="set" finished-at="2025-04-25T03:55:28 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="testMenuItemsAreDisplayed()[pri:8, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:28 IST" name="testMenuItemsAreDisplayed" finished-at="2025-04-25T03:55:28 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMenuItemsAreDisplayed -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:28 IST" name="browserClose" finished-at="2025-04-25T03:55:28 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchingAndLoadingURL(java.lang.String,java.lang.String)[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:28 IST" name="launchingAndLoadingURL" finished-at="2025-04-25T03:55:31 IST" duration-ms="2639" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.demoblaze.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingAndLoadingURL -->
+        <test-method is-config="true" signature="set()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:31 IST" name="set" finished-at="2025-04-25T03:55:31 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="verifyCategoryNames()[pri:8, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:31 IST" name="verifyCategoryNames" finished-at="2025-04-25T03:55:41 IST" duration-ms="10022" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all elements located by By.cssSelector: .category-list .category (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63588}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63588/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60f31b59ba4208909de9b065711bee5d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all elements located by By.cssSelector: .category-list .category (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63588}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63588/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 60f31b59ba4208909de9b065711bee5d
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at com.qa.pages.HomePage.getCategoryNames(HomePage.java:268)
+at com.qa.test.TC_001_HomePageTest.verifyCategoryNames(TC_001_HomePageTest.java:214)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCategoryNames -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:41 IST" name="browserClose" finished-at="2025-04-25T03:55:42 IST" duration-ms="285" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="reportClose()[pri:0, instance:com.qa.test.TC_001_HomePageTest@7a419da4]" started-at="2025-04-25T03:55:42 IST" name="reportClose" finished-at="2025-04-25T03:55:42 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportClose -->
+      </class> <!-- com.qa.test.TC_001_HomePageTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

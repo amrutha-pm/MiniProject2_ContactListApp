@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="url" value="https://www.demoblaze.com/"/>
+  <listeners>
+    <listener class-name="com.qa.utilities.Listener"/>
+  </listeners>
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.test.TC_001_HomePageTest">
+        <methods>
+          <include name="testDetails"/>
+          <include name="reportClose"/>
+          <include name="verifyTotalCategories"/>
+          <include name="setup"/>
+          <include name="verifyLoginIsActive1"/>
+          <include name="testApplicationLogoIsDisplayed"/>
+          <include name="verifyCategoryNames"/>
+          <include name="launchingAndLoadingURL"/>
+          <include name="browserClose"/>
+          <include name="reportInitialization"/>
+          <include name="set"/>
+        </methods>
+      </class> <!-- com.qa.test.TC_001_HomePageTest -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
